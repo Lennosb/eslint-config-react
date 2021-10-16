@@ -9,6 +9,7 @@
             "es2016.array.include",
             "es2017.object"
         ],
+        "jsx": "preserve",
         "allowJs": true,
         "skipLibCheck": true,
         "noEmit": true,
