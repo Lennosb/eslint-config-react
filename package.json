@@ -9,6 +9,11 @@
   },
   "author": "Lennard van den Berg <lennardvandenberg@hotmail.com>",
   "license": "MIT",
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
   "scripts": {
     "auditPackages": "yarn audit-ci -l -p yarn",
     "lint": "eslint --ext .ts,.tsx . --max-warnings 0",
