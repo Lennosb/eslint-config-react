@@ -29,10 +29,10 @@ jobs:
       # Next, the node orb's install-packages step will install the dependencies from a package.json.
       # The orb install-packages step will also automatically cache them for faster future runs.
       - node/install-packages:
-        pkg-manager: yarn
+          pkg-manager: yarn
       - deploy:
-        name: NPM deployment
-        command: yarn semantic-release
+          name: NPM deployment
+          command: yarn semantic-release
 
 workflows:
   # Below is the definition of your workflow.
