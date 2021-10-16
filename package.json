@@ -1,0 +1,34 @@
+{
+  "name": "eslint-config-react-lennard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lennosb/eslint-config-react.git"
+  },
+  "author": "Lennard van den Berg <lennardvandenberg@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "auditPackages": "yarn audit-ci -l -p yarn",
+    "lint": "eslint --ext .ts,.tsx . --max-warnings 0",
+    "prettier": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "test": "eslint -c index.js tests/*.tsx --fix",
+    "tsc": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "5.0.0",
+    "@typescript-eslint/parser": "5.0.0",
+    "eslint-config-airbnb-typescript-prettier": "4.2.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-jest": "25.2.1",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "eslint-plugin-simple-import-sort": "7.0.0",
+    "eslint": "8.0.1",
+    "prettier": "2.4.1",
+    "typescript": "4.4.4"
+  },
+  "devDependencies": {
+    "audit-ci": "5.1.2"
+  }
+}
