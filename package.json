@@ -1,11 +1,11 @@
 {
-  "name": "eslint-config-react-lennard",
+  "name": "@lennardvdberg/eslint-config-react-lennard",
   "version": "1.0.0",
-  "description": "",
+  "description": "My ESLint configuration for React",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Lennosb/eslint-config-react.git"
+    "url": "git+https://github.com/Lennosb/eslint-config-react.git"
   },
   "author": "Lennard van den Berg <lennardvandenberg@hotmail.com>",
   "license": "MIT",
@@ -30,5 +30,14 @@
   },
   "devDependencies": {
     "audit-ci": "5.1.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Lennosb/eslint-config-react/issues"
+  },
+  "homepage": "https://github.com/Lennosb/eslint-config-react#readme",
+  "keywords": [
+    "eslint",
+    "typescript",
+    "prettier"
+  ]
 }
