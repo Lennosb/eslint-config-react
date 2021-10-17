@@ -14,12 +14,10 @@ yarn add @lennardvdberg/eslint-config-react-lennard --dev
 
 The [`example`](/example) folder contains the files required to use this configuration. The prettier configuration needs to be copied manually. Alternatively, you can also add the ESLint and Typescript configuration manually:
 
-In `.eslintrc`:
+In `.eslintrc.js`:
 
-```json
-{ 
-  "extends": "eslint-config-react-lennard", 
-} 
+```js
+  extends: "eslint-config-react-lennard", 
 ```
 
 In `tsconfig.json` (if you want to use my base TS configuration):
