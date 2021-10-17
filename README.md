@@ -27,3 +27,7 @@ In `tsconfig.json` (if you want to use my base TS configuration):
   "extends": "@lennardvdberg/eslint-config-react-lennard/tsconfig.base"
 }
 ```
+
+## Releases
+
+Pushes to the 'main' branch are automatically published to NPM. This is done via [semantic-release](https://github.com/semantic-release/semantic-release) which runs on CircleCI, see the [CircleCI config](/.circleci/config.yml). Semantic-release uses the commit messages to check whether a release is necessary and what the version bump will be, see [How does CircleCI work?](https://github.com/semantic-release/semantic-release#how-does-it-work).
