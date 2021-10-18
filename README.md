@@ -17,7 +17,12 @@ The [`example`](/example) folder contains the files required to use this configu
 In `.eslintrc.js`:
 
 ```js
-  extends: "eslint-config-react-lennard", 
+module.exports = {
+  extends: "eslint-config-react-lennard",
+  rules: {
+    // override or add additional rules here
+  }
+}
 ```
 
 In `tsconfig.json` (if you want to use my base TS configuration):
