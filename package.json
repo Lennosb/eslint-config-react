@@ -44,5 +44,8 @@
     "eslint",
     "typescript",
     "prettier"
-  ]
+  ],
+  "resolutions": {
+    "eslint-plugin-react-hooks": "4.2.1-alpha-3c4c1c470-20211021"
+  }
 }
