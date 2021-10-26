@@ -149,6 +149,8 @@ module.exports = {
     "camelcase": 2,
     "prefer-destructuring": 2,
     "no-nested-ternary": 2,
-    "comma-dangle": 0
+    "comma-dangle": 0,
+    "consistent-return": "off",
+    "@typescript-eslint/explicit-function-return-type": "error",
   }
 }
