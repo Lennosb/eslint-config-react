@@ -27,7 +27,7 @@
     "eslint-config-airbnb-typescript-prettier": "4.2.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-jest": "25.2.4",
-    "eslint-plugin-react-hooks": "4.2.1-alpha-3c4c1c470-20211021",
+    "eslint-plugin-react-hooks": "4.3.0",
     "eslint-plugin-simple-import-sort": "7.0.0",
     "prettier": "2.4.1",
     "typescript": "4.4.4"
@@ -44,8 +44,5 @@
     "eslint",
     "typescript",
     "prettier"
-  ],
-  "resolutions": {
-    "eslint-plugin-react-hooks": "4.2.1-alpha-3c4c1c470-20211021"
-  }
+  ]
 }
