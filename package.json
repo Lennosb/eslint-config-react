@@ -23,18 +23,18 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "5.4.0",
     "@typescript-eslint/parser": "5.4.0",
-    "eslint": "8.2.0",
+    "eslint": "8.3.0",
     "eslint-config-airbnb-typescript-prettier": "4.2.0",
     "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-jest": "25.2.4",
+    "eslint-plugin-jest": "25.3.0",
     "eslint-plugin-react-hooks": "4.3.0",
     "eslint-plugin-simple-import-sort": "7.0.0",
-    "prettier": "2.4.1",
+    "prettier": "2.5.0",
     "typescript": "4.5.2"
   },
   "devDependencies": {
     "audit-ci": "5.1.2",
-    "semantic-release": "18.0.0"
+    "semantic-release": "18.0.1"
   },
   "bugs": {
     "url": "https://github.com/Lennosb/eslint-config-react/issues"
