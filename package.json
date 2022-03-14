@@ -21,19 +21,19 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.10.1",
-    "@typescript-eslint/parser": "5.10.1",
-    "eslint": "8.7.0",
+    "@typescript-eslint/eslint-plugin": "5.14.0",
+    "@typescript-eslint/parser": "5.14.0",
+    "eslint": "8.11.0",
     "eslint-config-airbnb-typescript-prettier": "5.0.0",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-jest": "26.0.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-jest": "26.1.1",
     "eslint-plugin-react-hooks": "4.3.0",
     "eslint-plugin-simple-import-sort": "7.0.0",
     "prettier": "2.5.1",
-    "typescript": "4.5.5"
+    "typescript": "4.6.2"
   },
   "devDependencies": {
-    "audit-ci": "5.1.2",
+    "audit-ci": "6.1.0",
     "semantic-release": "19.0.2"
   },
   "bugs": {
