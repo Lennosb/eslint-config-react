@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "audit-ci": "6.1.0",
-    "semantic-release": "19.0.2"
+    "semantic-release": "19.0.3"
   },
   "bugs": {
     "url": "https://github.com/Lennosb/eslint-config-react/issues"
