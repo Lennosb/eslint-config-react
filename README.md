@@ -1,6 +1,5 @@
 # @lennardvdberg/eslint-config-react-lennard
 
-[![CircleCI](https://circleci.com/gh/lennardvandenberg/eslint-config-react/tree/main.svg?style=svg)](https://circleci.com/gh/lennardvandenberg/eslint-config-react/tree/main)
 [![npm version](https://badge.fury.io/js/@lennardvdberg%2Feslint-config-react-lennard.svg)](https://badge.fury.io/js/@lennardvdberg%2Feslint-config-react-lennard)
 
 An opinionated default [ESLint](https://github.com/eslint/eslint) + [Typescript](https://github.com/microsoft/TypeScript) + [Prettier](https://github.com/prettier/prettier) configuration for [React](https://github.com/facebook/react). Make Eslint and prettier work with only one package installation.
