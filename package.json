@@ -1,6 +1,6 @@
 {
   "name": "@lennardvdberg/eslint-config-react-lennard",
-  "version": "0.0.0-development",
+  "version": "2.0.0",
   "description": "My ESLint configuration for React",
   "main": "index.js",
   "repository": {
@@ -16,8 +16,7 @@
   },
   "scripts": {
     "lint": "eslint --ext .ts,.tsx . --max-warnings 0",
-    "prettier": "prettier --write \"src/**/*.{ts,tsx}\"",
-    "semantic-release": "semantic-release"
+    "prettier": "prettier --write \"src/**/*.{ts,tsx}\""
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "7.0.1",
